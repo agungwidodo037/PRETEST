@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  * @author asus
  */
 public class PRETEST extends javax.swing.JFrame {
-    int nilaiStr;
+    
     /**
      * Creates new form PRETEST
      */
@@ -129,7 +129,6 @@ public class PRETEST extends javax.swing.JFrame {
         tfNilai.setText("");
         JOptionPane.showMessageDialog(this, "Nama Mahasiswa : " + nama + "\nNilai : " + nilai);
     }
-} 
     }//GEN-LAST:event_btSimpanActionPerformed
 
     /**
